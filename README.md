@@ -96,12 +96,9 @@ pip install -r requirements.txt
 ```sql
 CREATE DATABASE smart_agriculture;
 USE smart_agriculture;
-
-CREATE TABLE farms(farm_id INT PRIMARY KEY, farm_name VARCHAR(100), owner_name VARCHAR(100), contact_email VARCHAR(100), contact_phone VARCHAR(15));
-CREATE TABLE zones(zone_id VARCHAR(10) PRIMARY KEY, farm_id INT, crop_name VARCHAR(50));
-CREATE TABLE sensors(sensor_id VARCHAR(10) PRIMARY KEY, zone_id VARCHAR(10), sensor_type VARCHAR(20));
-CREATE TABLE readings(reading_id INT AUTO_INCREMENT PRIMARY KEY, sensor_id VARCHAR(10), value FLOAT, timestamp DATETIME);
 ```
+then import SQL file /SQL Data/Hotel_Management_SQL.sql in your created database
+
 - MongoDB
 Create
 Database: smart_agriculture
