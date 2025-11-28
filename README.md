@@ -97,7 +97,7 @@ pip install -r requirements.txt
 CREATE DATABASE smart_agriculture;
 USE smart_agriculture;
 ```
-then import SQL file /SQL Data/Hotel_Management_SQL.sql in your created database
+then import SQL file /sql_data/agriculture_data.sql in your created database
 
 - MongoDB
 Create
