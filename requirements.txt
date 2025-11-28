@@ -1,0 +1,11 @@
+# MQTT client library
+paho-mqtt==1.6.1
+
+# MySQL connector for Python
+mysql-connector-python==8.1.0
+
+# MongoDB driver for Python
+pymongo==4.4.0
+
+# Neo4j Python driver
+neo4j==5.12.0
