@@ -133,11 +133,11 @@ python mqtt_subscriber.py
 3. Data Handling:
      - Insert readings into MySQL
      - Generate alerts for out-of-threshold values in MongoDB
-     -Update min/max readings, timestamps, and alert counts in Neo4j
+     - Update min/max readings, timestamps, and alert counts in Neo4j
 
 ## Key Features
-    - Real-time data collection and processing
-    - Multi-database integration (SQL, MongoDB, Neo4j)
-    - Dynamic alert generation based on thresholds
-    - Graph-based relationships between farms, zones, and sensors
-    - Scalable and modular Python code
+  - Real-time data collection and processing
+  - Multi-database integration (SQL, MongoDB, Neo4j)
+  - Dynamic alert generation based on thresholds
+  - Graph-based relationships between farms, zones, and sensors
+  - Scalable and modular Python code
